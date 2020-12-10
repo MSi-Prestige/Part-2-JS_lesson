@@ -168,7 +168,7 @@
 // }else if (finalAveragePointsDolp < finalAveragePointsKoala && finalAveragePointsDolp * 2 < finalAveragePointsKoala ) {
 //   console.log(`KOALA WINNER ${finalAveragePointsKoala}`);
 // }else{
- 
+
 //   console.log("NO WINNER");
 // }
 // };
@@ -180,29 +180,44 @@
 // console.log(finalAveragePointsDolp);
 // console.log(finalAveragePointsKoala);
 // console.log(calcAverage(1,2,3));
+// const calcAverage = (a, b, c) => (a + b + c) / 3;
+// let scoreDolphins = calcAverage(244, 23, 71);
+// let scoreKoalas = calcAverage(65, 54, 49);
+// console.log(scoreDolphins, scoreKoalas);
+
+// const checkWinner = function ( avgDolphins , avgKoalas) {
+//       if (avgDolphins >= 2 * avgKoalas) {
+//         console.log(`Dolphin is WIN  (${avgDolphins} 🍷 vs. ${avgKoalas})`);
+//       }else if (avgKoalas >= 2 * avgDolphins) {
+//         console.log(`Dolphin is WIN  (${avgKoalas} 🥇 vs. ${avgDolphins})`);
+//       }else {
+//         console.log("no team wins....");
+//       }
+// };
+
+// checkWinner(scoreDolphins,scoreKoalas);
+// checkWinner(576, 111);   //!   kak primer 
+
+// scoreDolphins = calcAverage(4, 23, 71);
+// scoreKoalas = calcAverage(5, 154, 49);
+// // console.log(scoreDolphins, scoreKoalas);
+// checkWinner(scoreDolphins, scoreKoalas);
 
 
-const calcAverage = (a, b, c) => (a + b + c) / 3;
+const populations = [290, 330, 100, 50];
+console.log(populations[populations.length - 1]);
 
-     
-let scoreDolphins = calcAverage(244, 23, 71);
-let scoreKoalas = calcAverage(65, 54, 49);
-console.log(scoreDolphins, scoreKoalas);
 
-const checkWinner = function ( avgDolphins , avgKoalas) {
-      if (avgDolphins >= 2 * avgKoalas) {
-        console.log(`Dolphin is WIN  (${avgDolphins} 🍷 vs. ${avgKoalas})`);
-      }else if (avgKoalas >= 2 * avgDolphins) {
-        console.log(`Dolphin is WIN  (${avgKoalas} 🥇 vs. ${avgDolphins})`);
-      }else {
-        console.log("no team wins....");
-      }
-};
+function percentageOfWorld1(population) {
+    const peopleWorld = 7900;
+    const curentReturnPopul = population / peopleWorld * 100; //todo : Prercentage of the 7900. 
+    return curentReturnPopul;
+}
 
-checkWinner(scoreDolphins,scoreKoalas);
-checkWinner(576, 111);   //!   kak primer 
+const latvija = percentageOfWorld1(populations[0]);
+console.log(latvija);
 
-scoreDolphins = calcAverage(4, 23, 71);
-scoreKoalas = calcAverage(5, 154, 49);
-console.log(scoreDolphins, scoreKoalas);
-checkWinner(scoreDolphins, scoreKoalas);
+
+const friends = ["Michel", "Steven", "Peter"];
+console.log(friends[0]);
+console.log(friends.length);
