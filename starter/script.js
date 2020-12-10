@@ -172,6 +172,7 @@
 //   console.log("NO WINNER");
 // }
 // };
+
 // // TEST DATA 1: Dolphins score 44, 23 and 71. Koalas score 65, 54 and 49
 // // TEST DATA 2: Dolphins score 85, 54 and 41. Koalas score 23, 34 and 27
 
@@ -216,8 +217,6 @@ function percentageOfWorld1(population) {
 
 const latvija = percentageOfWorld1(populations[0]);
 console.log(latvija);
+console.log(latvija);
 
 
-const friends = ["Michel", "Steven", "Peter"];
-console.log(friends[0]);
-console.log(friends.length);
